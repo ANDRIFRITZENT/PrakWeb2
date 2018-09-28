@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('halamandua', function () {
+    return view('halamandua');
+});
+Route::get('future', function () { //disini diisikan nama hrefnya untuk dibuat dibagian linknya
+    return view('halamantiga'); // disini diisikan nama filenya
+});
