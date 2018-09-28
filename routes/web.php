@@ -24,3 +24,6 @@ Route::get('halamandua', function () {
 Route::get('future', function () { //disini diisikan nama hrefnya untuk dibuat dibagian linknya
     return view('halamantiga'); // disini diisikan nama filenya
 });
+
+Route::get("halaman/tambah","control@tambah");
+Route::resource("halaman","control");
